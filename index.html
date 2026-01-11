@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vanilla JS</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body class="bgImg">
+        <div id="clock"></div>
+        <form id="login-form">
+            <input maxlength="15" 
+            type="text" 
+            placeholder="Whai is your name?" required 
+            />
+            <button id="button" type="submit" value="Log In">submit</button>
+        </form>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To Do and Press the Enter" required />
+        </form>
+        <ul id="todo-list">
+            <li>
+                <span></span>
+                <button></button>
+            </li>
+        </ul>
+        <h1 id="greeting" class="hidden"></h1>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <script src="./JS/greetings.js"></script>
+        <script src="./JS/clock.js"></script>
+        <script src="./JS/quotes.js"></script>
+        <script src="./JS/background.js"></script>
+        <script src="./JS/todo.js"></script>
+        <script src="./JS/weather.js"></script>
+    </body>
+</html>
